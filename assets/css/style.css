@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto+Condensed:wght@400;700&family=Teko:wght@400;500;600;700&display=swap');
+:root {
+  --purple: #814096;
+  --pink: #f83292;
+}
+nav {
+  font-weight: 500;
+}
+.navbar-brand {
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  background-color: #f72585;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-3.5rem);
+  }
+}
+.hero {
+  background: linear-gradient(180deg, #7209b7, var(--pink));
+}
+.about-title,
+.service-title,
+.client-title,
+.faq-title,
+.contact-title {
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.about {
+  background: linear-gradient(180deg, var(--pink), #f36db7);
+}
+.services {
+  background-color: #f36db7;
+}
+.client {
+  background-color: #f36db7;
+}
+.faq {
+  background: linear-gradient(180deg, #f36db7, var(--pink));
+}
+.contact {
+  background: linear-gradient(180deg, var(--pink), #7209b7);
+}
+.image img {
+  width: 40vw;
+  animation: float 3s linear infinite;
+}
+.bg-main {
+  background-color: #7209b7;
+}
+.bg-pink {
+  background-color: #f72585;
+  font-weight: 600;
+}
+.bg-pink:hover {
+  background: linear-gradient(90deg, #f72585, #ffbb00);
+  border: 2px solid white;
+}
+.bg-pink:hover {
+  background-color: #ffbb00;
+}
+.text-pink {
+  color: #f72585;
+}
+.text-purple {
+  color: #7209b7;
+}
+.btn-warning {
+  background-color: #ffbb00;
+}
+.text-warning {
+  color: #ffbb00;
+}
+.btn-gradient {
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, var(--purple), var(--pink));
+  transition: all 0.3s linear;
+  border: 2px solid white;
+}
+.btn-gradient:hover {
+  background: linear-gradient(90deg, #f72585, #ffbb00);
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.hero-subtitle {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
