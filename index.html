@@ -90,12 +90,12 @@
     </section>
     <section class="about" id="about">
       <div class="container">
-        <div class="row">
-          <h1 class="about-title text-light text-center mt-5">ABOUT US</h1>
+        <div class="row align-items-center">
+          <h1 class="about-title text-light text-center my-5">ABOUT US</h1>
           <div class="col-12 col-md-6 col-lg-6 text-center">
             <img
               src="assets/images/about-img.svg"
-              class="w-75"
+              class="w-100"
               alt="hero-image"
             />
           </div>
@@ -136,43 +136,48 @@
     <section class="services vh-100" id="services">
       <div class="container">
         <div class="row">
-          <h1 class="service-title text-light text-center mt-5">SERVICES</h1>
+          <h1 class="service-title text-light text-center my-5">SERVICES</h1>
         </div>
       </div>
     </section>
     <section class="client vh-100" id="client">
       <div class="container">
         <div class="row">
-          <h1 class="client-title text-light text-center mt-5">CLIENT</h1>
+          <h1 class="client-title text-light text-center my-5">CLIENT</h1>
         </div>
       </div>
     </section>
     <section class="faq vh-100" id="faq">
       <div class="container">
         <div class="row justify-content-center">
-          <h1 class="faq-title text-light text-center mt-5">FAQ</h1>
+          <h1 class="faq-title text-light text-center my-5">FAQ</h1>
           <div class="col-lg-10 col-md-10 col-12 faq-content">
-            <div class="accordion" id="accordionExample">
+            <p class="faq-header">
+              Temukan <span>Jawaban</span> untuk Setiap Pertanyaan yang Anda
+              Miliki <br />
+              dengan Bantuan FAQ Kami
+            </p>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item mb-4">
-                <h2 class="accordion-header" id="headingOne">
+                <h2 class="accordion-header" id="flush-headingOne">
                   <button
-                    class="accordion-button shadow-none"
+                    class="accordion-button collapsed shadow-none bg-white text-dark"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
                   >
-                    Bagaimana cara kerja kami?
+                    <strong>Bagaimana cara kerja kami?</strong>
                   </button>
                 </h2>
                 <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample"
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
                 >
-                  <div class="accordion-body">
+                  <div class="accordion-body pt-0">
                     Kami akan bekerja sama dengan Anda untuk memahami kebutuhan
                     dan tujuan Anda, kemudian menciptakan konsep dan desain
                     website yang sesuai. Setelah persetujuan konsep dan desain,
@@ -185,25 +190,28 @@
                 </div>
               </div>
               <div class="accordion-item mb-4">
-                <h2 class="accordion-header" id="headingTwo">
+                <h2 class="accordion-header" id="flush-headingTwo">
                   <button
-                    class="accordion-button collapsed shadow-none"
+                    class="accordion-button collapsed shadow-none bg-white text-dark"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
+                    data-bs-target="#flush-collapseTwo"
                     aria-expanded="false"
-                    aria-controls="collapseTwo"
+                    aria-controls="flush-collapseTwo"
                   >
-                    Berapa biaya yang dibutuhkan untuk membuat website?
+                    <strong
+                      >Berapa biaya yang dibutuhkan untuk membuat
+                      website?</strong
+                    >
                   </button>
                 </h2>
                 <div
-                  id="collapseTwo"
+                  id="flush-collapseTwo"
                   class="accordion-collapse collapse"
-                  aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
                 >
-                  <div class="accordion-body">
+                  <div class="accordion-body pt-0">
                     Biaya pembuatan website bervariasi tergantung pada kebutuhan
                     dan tujuan Anda. Kami akan memberikan estimasi biaya setelah
                     mendiskusikan kebutuhan Anda dengan Anda.
@@ -211,25 +219,28 @@
                 </div>
               </div>
               <div class="accordion-item mb-4">
-                <h2 class="accordion-header" id="headingThree">
+                <h2 class="accordion-header" id="flush-headingThree">
                   <button
-                    class="accordion-button collapsed shadow-none"
+                    class="accordion-button collapsed shadow-none bg-white text-dark"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
+                    data-bs-target="#flush-collapseThree"
                     aria-expanded="false"
-                    aria-controls="collapseThree"
+                    aria-controls="flush-collapseThree"
                   >
-                    Berapa lama waktu yang dibutuhkan untuk membuat website?
+                    <strong
+                      >Berapa lama waktu yang dibutuhkan untuk membuat
+                      website?</strong
+                    >
                   </button>
                 </h2>
                 <div
-                  id="collapseThree"
+                  id="flush-collapseThree"
                   class="accordion-collapse collapse"
-                  aria-labelledby="headingThree"
-                  data-bs-parent="#accordionExample"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
                 >
-                  <div class="accordion-body">
+                  <div class="accordion-body pt-0">
                     Waktu yang dibutuhkan untuk membuat website bervariasi
                     tergantung pada kompleksitas dan kebutuhan website. Kami
                     akan memberikan estimasi waktu setelah mendiskusikan
@@ -237,27 +248,29 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="flush-headingFour">
                   <button
-                    class="accordion-button collapsed shadow-none"
+                    class="accordion-button collapsed shadow-none bg-white text-dark"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour"
+                    data-bs-target="#flush-collapseFour"
                     aria-expanded="false"
-                    aria-controls="collapseFour"
+                    aria-controls="flush-collapseFour"
                   >
-                    Apakah kami dapat membantu dalam pemasaran website setelah
-                    selesai dibuat?
+                    <strong
+                      >Apakah kami dapat membantu dalam pemasaran website
+                      setelah selesai dibuat?</strong
+                    >
                   </button>
                 </h2>
                 <div
-                  id="collapseFour"
+                  id="flush-collapseFour"
                   class="accordion-collapse collapse"
-                  aria-labelledby="headingFour"
-                  data-bs-parent="#accordionExample"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample"
                 >
-                  <div class="accordion-body">
+                  <div class="accordion-body pt-0">
                     Ya, kami menawarkan layanan pemasaran digital untuk membantu
                     Anda meningkatkan visibilitas website Anda dan mengarahkan
                     lebih banyak traffic ke website Anda.
@@ -272,14 +285,14 @@
     <section class="contact vh-100" id="contact">
       <div class="container">
         <div class="row">
-          <h1 class="contact-title text-center text-light mt-5">CONTACT</h1>
+          <h1 class="contact-title text-center text-light my-5">CONTACT</h1>
         </div>
       </div>
     </section>
     <footer class="pt-5 ps-5 pe-5 bg-main text-light">
       <div class="container">
         <div class="row">
-          <div class="col-6 col-lg-4">
+          <div class="col-4 col-md-2 col-lg-2">
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
@@ -306,7 +319,33 @@
             </ul>
           </div>
 
-          <div class="col-6 col-lg-4">
+          <div class="col-4 col-md-2 col-lg-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="text-decoration-none p-0 text-light">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-decoration-none p-0 text-light"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-decoration-none p-0 text-light"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-decoration-none p-0 text-light">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="text-decoration-none p-0 text-light"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2">
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
@@ -333,7 +372,7 @@
             </ul>
           </div>
 
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <form>
               <h5>Subscribe to our newsletter</h5>
               <p>Monthly digest of whats new and exciting from us.</p>
@@ -352,11 +391,15 @@
             </form>
           </div>
         </div>
-        <div class="d-flex justify-content-between py-4 mt-4 border-top">
+        <div
+          class="d-flex justify-content-between align-items-center py-4 mt-4 border-top"
+        >
           <p>
-            <a class="navbar-brand text-light text-decoration-none" href="#"
+            <a
+              class="navbar-brand me-1 text-light text-decoration-none"
+              href="#"
               >Lembar | Studio</a
-            >Inc. All rights reserved.
+            >
           </p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3">
