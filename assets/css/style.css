@@ -11,6 +11,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 1rem;
+  overflow-x: hidden;
 }
 nav {
   font-weight: 500;
@@ -156,4 +157,25 @@ nav {
 .accordion-item {
   border-radius: 10px !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.client-border {
+  border-radius: 15px;
+  height: 120px;
+}
+.client-image {
+  width: 100px;
+  text-align: center;
+}
+.client-header {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.client-header span {
+  color: #7209b7;
+  font-weight: 800;
+}
+
+@media (min-width: 0px) and (max-width: 464px) {
 }
