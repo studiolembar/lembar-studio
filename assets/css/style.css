@@ -95,15 +95,13 @@ nav {
   width: 100px;
   text-align: center;
 }
-.client-header {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 25px;
+.client-header-text {
+  color: #040336;
+  font-size: 20px;
   font-family: 'Roboto Condensed', sans-serif;
 }
-.client-header span {
+.client-header-text span {
   color: #009f9d;
-  font-weight: 800;
 }
 .about {
   background-image: url('../images/volcadot.png');
@@ -129,14 +127,73 @@ nav {
   font-size: 24px;
   margin-right: 10px;
 }
-.faq-header {
-  text-align: center;
+.services {
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+}
+.services-header-title {
+  font-size: 22px;
+  margin-bottom: 0;
+  color: #009f9d;
+}
+.services-header-text {
+  color: #040336;
+  font-size: 20px;
+}
+.services-header-text span {
+  color: #009f9d;
+}
+.image-services-left {
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+.image-services-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.service-item {
+  height: 200px;
+  border-radius: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+.service-item-icon {
+  color: #009f9d;
+  font-size: 60px;
+  margin-right: 15px;
+}
+.bi-browser-chrome {
+  color: #157292;
+}
+.bi-code-slash {
+  color: #040336;
+}
+.bi-card-image {
+  color: #f47170;
+}
+.service-item-text-title {
+  color: #009f9d;
   font-size: 25px;
+}
+.service-item-text-subtitle {
+  color: #040336;
+  font-size: 18px;
+}
+.faq-header-title {
+  font-size: 22px;
+  margin-bottom: 0;
+  color: #009f9d;
   font-family: 'Roboto Condensed', sans-serif;
 }
-.faq-header span {
+.faq-header-text {
+  color: #040336;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.faq-header-text span {
   color: #009f9d;
-  font-weight: 800;
 }
 .faq-content {
   font-family: 'Roboto Condensed', sans-serif;
@@ -151,10 +208,6 @@ nav {
 .accordion-item {
   border-radius: 10px !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.contact {
-  background-image: url('../images/line.png');
-  background-repeat: no-repeat;
 }
 .contact-title {
   font-size: 22px;
