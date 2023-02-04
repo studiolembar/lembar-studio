@@ -10,8 +10,14 @@
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 1rem;
+  scroll-padding-top: 2rem;
   overflow-x: hidden;
+}
+body {
+  background-color: #fafafa;
+}
+.bg-main {
+  background-color: #009f9d;
 }
 nav {
   font-weight: 500;
@@ -30,7 +36,7 @@ nav {
   width: 0;
   height: 2px;
   position: absolute;
-  background-color: #f72585;
+  background-color: #fafafa;
   left: 0;
   bottom: 0;
   transition: 0.5s;
@@ -38,17 +44,40 @@ nav {
 .nav-link:hover::after {
   width: 100%;
 }
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0rem);
-  }
-  50% {
-    transform: translateY(-3.5rem);
-  }
+.btn-navbar {
+  color: #009f9d !important;
+  background-color: #fafafa;
+  font-weight: 600;
+  transition: all 0.5s;
 }
-.hero {
-  background: linear-gradient(180deg, #7209b7, var(--pink));
+.btn-navbar:hover {
+  background: #040336;
+}
+.hero-title {
+  color: #040336;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.hero-title span {
+  color: #009f9d;
+}
+.hero-subtitle {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.btn-gradient {
+  margin-top: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  background: #009f9d;
+  transition: all 0.3s linear;
+  border: 2px solid white;
+}
+.btn-gradient:hover {
+  background: #040336;
 }
 .about-title,
 .service-title,
@@ -57,106 +86,6 @@ nav {
 .contact-title {
   font-size: 30px;
   font-family: 'Roboto Condensed', sans-serif;
-}
-.about {
-  background: linear-gradient(180deg, var(--pink), #f36db7);
-}
-.services {
-  background-color: #f36db7;
-}
-.client {
-  background-color: #f36db7;
-}
-.faq {
-  background: linear-gradient(180deg, #f36db7, var(--pink));
-}
-.contact {
-  background: linear-gradient(180deg, var(--pink), #7209b7);
-}
-.image img {
-  width: 40vw;
-  animation: float 3s linear infinite;
-}
-.bg-main {
-  background-color: #7209b7;
-}
-.bg-pink {
-  background-color: #f72585;
-  font-weight: 600;
-}
-.bg-pink:hover {
-  background: linear-gradient(90deg, #f72585, #ffbb00);
-  border: 2px solid white;
-}
-.bg-pink:hover {
-  background-color: #ffbb00;
-}
-.text-pink {
-  color: #f72585;
-}
-.text-purple {
-  color: #7209b7;
-}
-.btn-warning {
-  background-color: #ffbb00;
-}
-.text-warning {
-  color: #ffbb00;
-}
-.btn-gradient {
-  font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: 2px;
-  background: linear-gradient(90deg, var(--purple), var(--pink));
-  transition: all 0.3s linear;
-  border: 2px solid white;
-}
-.btn-gradient:hover {
-  background: linear-gradient(90deg, #f72585, #ffbb00);
-}
-.hero-title {
-  font-size: 45px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.hero-subtitle {
-  font-size: 20px;
-  letter-spacing: 1px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.bi-check-circle-fill {
-  color: #7209b7;
-  font-size: 24px;
-  margin-right: 10px;
-}
-.about-right {
-  color: white;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.faq-header {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 25px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.faq-header span {
-  color: #7209b7;
-  font-weight: 800;
-}
-.faq-content {
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.accordion-button {
-  border-radius: 10px !important;
-  height: 80px;
-}
-.accordion-header strong {
-  color: #f72585;
-}
-.accordion-item {
-  border-radius: 10px !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .client-border {
   border-radius: 15px;
@@ -173,9 +102,164 @@ nav {
   font-family: 'Roboto Condensed', sans-serif;
 }
 .client-header span {
-  color: #7209b7;
+  color: #009f9d;
   font-weight: 800;
 }
+.about {
+  background-image: url('../images/volcadot.png');
+  background-repeat: no-repeat;
+  background-position: 100% 70%;
+}
+.about-image {
+  margin-left: -150px;
+  height: 800px;
+}
+.about-right {
+  color: #040336;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.about-right-title {
+  font-size: 22px;
+  margin-bottom: 0;
+  color: #009f9d;
+}
+.bi-check-circle-fill {
+  color: #009f9d;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.faq-header {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.faq-header span {
+  color: #009f9d;
+  font-weight: 800;
+}
+.faq-content {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.accordion-button {
+  border-radius: 10px !important;
+  height: 80px;
+}
+.accordion-header strong {
+  color: #009f9d;
+}
+.accordion-item {
+  border-radius: 10px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contact-title {
+  font-size: 22px;
+  color: #009f9d;
+  margin-bottom: 0;
+}
+.contact-content {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #040336;
+  font-size: 20px;
+}
+.contact-card {
+  margin: 10px;
+  height: 100px;
+  border-radius: 15px;
+}
+.contact-icon p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+  color: #009f9d;
+}
+contact-text {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  color: #009f9d !important;
+}
 
+/* Tablet */
+@media (min-width: 464px) and (max-width: 990px) {
+  .hero {
+    height: 450px;
+    background-image: url('../images/hero-image.png');
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .hero-title {
+    margin-top: 30px;
+    font-size: 40px;
+    width: 500px;
+  }
+  .btn-gradient {
+    margin-top: 30px;
+  }
+  .about {
+    margin-top: 50px;
+  }
+  .about-image {
+    width: 180%;
+    padding: 0;
+    height: 200%;
+    margin-left: -110px;
+  }
+  .faq-image {
+    margin-top: 70px;
+  }
+  .contact-image {
+    width: 300%;
+    margin-left: -100px;
+    margin-top: 100px;
+  }
+}
+
+/* Mobile */
 @media (min-width: 0px) and (max-width: 464px) {
+  .hero {
+    height: 450px;
+    background-image: url('../images/bg-mobile.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 120% 110%;
+  }
+  .hero-title {
+    font-size: 35px;
+  }
+  .hero-subtitle {
+    color: #040336;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .btn-gradient {
+    margin-top: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #009f9d;
+    letter-spacing: 2px;
+    transition: all 0.3s linear;
+    border: 2px solid white;
+  }
+  .client-header {
+    font-size: 16px;
+  }
+  .about {
+    background-image: url('../images/volcadot.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  .about-image {
+    width: 150%;
+    padding: 0;
+    margin-left: -84px;
+    margin-bottom: -100px;
+    height: 100%;
+  }
+  .about-wrapper {
+    display: flex;
+  }
+  .faq-header {
+    font-size: 16px;
+    margin-bottom: -15px;
+  }
 }
