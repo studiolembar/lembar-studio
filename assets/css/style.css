@@ -117,6 +117,7 @@ nav {
 .about-right {
   color: #040336;
   font-family: 'Roboto Condensed', sans-serif;
+  text-align: justify;
 }
 .about-right-title {
   font-size: 22px;
@@ -151,6 +152,10 @@ nav {
   border-radius: 10px !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.contact {
+  background-image: url('../images/line.png');
+  background-repeat: no-repeat;
+}
 .contact-title {
   font-size: 22px;
   color: #009f9d;
@@ -166,18 +171,22 @@ nav {
   height: 100px;
   border-radius: 15px;
 }
-.contact-icon p {
+.fa-whatsapp,
+.fa-envelope,
+.fa-location-dot {
+  font-size: 40px;
+  color: #009f9d;
+}
+.card-content-title {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 22px;
   color: #009f9d;
 }
-contact-text {
-  text-align: center;
+.card-content-subtitle {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
-  color: #009f9d !important;
+  color: #040336;
 }
-
 /* Tablet */
 @media (min-width: 464px) and (max-width: 990px) {
   .hero {
@@ -203,6 +212,11 @@ contact-text {
     padding: 0;
     height: 200%;
     margin-left: -110px;
+  }
+  .faq {
+    background-image: url('../images/line.png');
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
   }
   .faq-image {
     margin-top: 70px;
@@ -261,5 +275,11 @@ contact-text {
   .faq-header {
     font-size: 16px;
     margin-bottom: -15px;
+  }
+  .contact {
+    background-image: url('../images/volcadot.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 100% 10%;
   }
 }
