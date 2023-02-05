@@ -154,28 +154,38 @@ nav {
   right: 0;
 }
 .service-item {
-  height: 200px;
   border-radius: 15px;
   margin: 10px;
   cursor: pointer;
+  text-align: justify;
 }
 .service-item-icon {
   color: #009f9d;
   font-size: 60px;
   margin-right: 15px;
 }
-.bi-browser-chrome {
+.service-item-text {
+  padding: 10px 0;
+}
+.fa-building {
   color: #157292;
 }
-.bi-code-slash {
-  color: #040336;
+.fa-chrome {
+  color: #009f9d;
+}
+.bi-android2 {
+  color: #088551;
 }
 .bi-card-image {
   color: #f47170;
 }
+.fa-person-chalkboard {
+  color: #040336;
+}
 .service-item-text-title {
   color: #009f9d;
   font-size: 25px;
+  margin-bottom: 5px;
 }
 .service-item-text-subtitle {
   color: #040336;
