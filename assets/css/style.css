@@ -103,7 +103,7 @@ nav {
   color: #009f9d;
 }
 .about {
-  background-image: url('../images/page/volcadot.png');
+  background-image: url('../images/page/volcadot.webp');
   background-repeat: no-repeat;
   background-position: 100% 70%;
 }
@@ -262,7 +262,7 @@ footer {
   }
   .hero {
     height: 450px;
-    background-image: url('../images/page/hero-image.png');
+    background-image: url('../images/page/hero-image.webp');
     background-size: 55%;
     background-repeat: no-repeat;
     background-position: right;
@@ -285,7 +285,7 @@ footer {
     margin-left: -110px;
   }
   .faq {
-    background-image: url('../images/page/line.png');
+    background-image: url('../images/page/line.webp');
     background-repeat: no-repeat;
     background-position: 50% 20%;
   }
@@ -309,7 +309,7 @@ footer {
   }
   .hero {
     height: 450px;
-    background-image: url('../images/page/bg-mobile.png');
+    background-image: url('../images/page/bg-mobile.webp');
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: 120% 110%;
@@ -335,7 +335,7 @@ footer {
     font-size: 16px;
   }
   .about {
-    background-image: url('../images/page/decorator.png');
+    background-image: url('../images/page/decorator.webp');
     background-repeat: no-repeat;
     background-position: 100% 0;
     background-size: 60%;
@@ -355,7 +355,7 @@ footer {
     margin-bottom: -15px;
   }
   .contact {
-    background-image: url('../images/page/volcadot.png');
+    background-image: url('../images/page/volcadot.webp');
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: 100% 10%;
