@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto+Condensed:wght@400;700&family=Teko:wght@400;500;600;700&display=swap');
-:root {
-  --purple: #814096;
-  --pink: #f83292;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +12,7 @@ html {
 }
 body {
   background-color: #fafafa;
+  font-family: 'Inter', sans-serif;
 }
 .bg-main {
   background-color: #009f9d;
@@ -30,6 +28,7 @@ nav {
 }
 .nav-link {
   position: relative;
+  font-family: 'Inter', sans-serif;
 }
 .nav-link::after {
   content: '';
@@ -58,7 +57,7 @@ nav {
   font-size: 45px;
   font-weight: 700;
   letter-spacing: 2px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .hero-title span {
   color: #009f9d;
@@ -66,7 +65,7 @@ nav {
 .hero-subtitle {
   font-size: 20px;
   letter-spacing: 1px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .btn-gradient {
   margin-top: 30px;
@@ -255,6 +254,12 @@ footer {
 }
 /* Tablet */
 @media (min-width: 464px) and (max-width: 990px) {
+  .nav-link::after {
+    display: none;
+  }
+  .nav-link:hover::after {
+    display: none;
+  }
   .hero {
     height: 450px;
     background-image: url('../images/page/hero-image.png');
@@ -296,6 +301,12 @@ footer {
 
 /* Mobile */
 @media (min-width: 0px) and (max-width: 464px) {
+  .nav-link::after {
+    display: none;
+  }
+  .nav-link:hover::after {
+    display: none;
+  }
   .hero {
     height: 450px;
     background-image: url('../images/page/bg-mobile.png');
