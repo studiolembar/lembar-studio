@@ -21,10 +21,10 @@ nav {
   font-weight: 500;
 }
 .navbar-brand {
-  font-family: 'Teko', sans-serif;
-  letter-spacing: 2px;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
+}
+.brand-image {
+  width: 40px;
 }
 .nav-link {
   position: relative;
@@ -166,7 +166,7 @@ nav {
 .service-item-text {
   padding: 10px 0;
 }
-.fa-building {
+.fa-calendar-check {
   color: #157292;
 }
 .fa-chrome {
